@@ -1,0 +1,60 @@
+body {
+	background: #000;
+	font-family: "Nico Moji", sans-serif;
+}
+
+.wrapper1 {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+	top: 50%;
+	left: 44%; 
+}
+.column {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+	.info {
+		margin-bottom: 10%;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+	a {
+		font-size: 2rem;
+		background: #0bd;
+		border-radius: 5px;
+		padding: 10px 20px;
+		color: #fff;
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 18px;
+	}
+	a:hover {
+		background: #0090aa;
+	}
+.show1 {
+	background: url('../images/Aditi.jpg') no-repeat top center;
+	background-size: cover;
+	color: rgba(255,255,255,.7);
+}
+.show2 {
+	background: url('../images/Nalayak.jpg') no-repeat top center;
+	background-size: cover;
+	color: rgba(0,0,0,.7);
+}
+
+@media all and (min-width: 500px) {
+  .wrapper {
+    display: flex;
+  }
+}
